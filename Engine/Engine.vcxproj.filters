@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Headerdateien\Core">
+      <UniqueIdentifier>{855c5431-f0d1-42f7-9d39-8b0dfe97312a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="win32.cpp">
@@ -24,6 +27,9 @@
     <ClCompile Include="glad_wgl.c">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="gl_context.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad.h">
@@ -31,6 +37,9 @@
     </ClInclude>
     <ClInclude Include="glad_wgl.h">
       <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="gl_context.h">
+      <Filter>Headerdateien\Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

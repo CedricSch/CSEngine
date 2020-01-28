@@ -152,10 +152,12 @@
     <ClCompile Include="glad.c" />
     <ClCompile Include="glad_wgl.c" />
     <ClCompile Include="win32.cpp" />
+    <ClCompile Include="gl_context.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad.h" />
     <ClInclude Include="glad_wgl.h" />
+    <ClInclude Include="gl_context.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
